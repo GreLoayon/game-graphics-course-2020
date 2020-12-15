@@ -238,7 +238,7 @@ function draw() {
         drawCall.uniform("time", time);
         drawCall.uniform("modelViewProjectionMatrix", modelViewProjectionMatrix);
         drawCall.draw();
-    drawCall.draw();
+    
 
     requestAnimationFrame(draw);
 }
